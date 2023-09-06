@@ -1,3 +1,6 @@
+export default function  (){;
+
+}
 export default function TiendaLayout({ children }){
     return<>
     <nav>
