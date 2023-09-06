@@ -9,7 +9,7 @@ export const metadata = {
     url: ';3',
     images: [
       {
-        url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fnyan-cat-kaomoji-aidnjp-emoji-japanese-gif-23310320&psig=AOvVaw3j5BFEPnbtKEH_W95gHKs8&ust=1694057948652000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJiL2uOHlYEDFQAAAAAdAAAAABAI',
+        url: '../public/nyan-cat-kaomoji.gif',
         width: 800,
         height: 600,
       }
