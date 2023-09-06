@@ -1,4 +1,5 @@
-import Navbar from "../Components/navbar"
+import Navbar from "../Components/Navbar"
+import { Roboto } from "next/font/google"
 
 export const metadata = {
   
@@ -6,10 +7,10 @@ export const metadata = {
   openGraph: {
     title: "Mi tienda online",
     description: "Landing Page",
-    url: ';3',
+    url: '/',
     images: [
       {
-        url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fes%2Fi%2Fpegatina%2Fkaomoji-ascii-gato-varita-m%25C3%25A1gica-brilla-de-fragmentals%2F138147289.EJUG5&psig=AOvVaw3eUdlOaUWnN4Ay2gwgi08Q&ust=1694058312077000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMjZ-5CJlYEDFQAAAAAdAAAAABAR',
+        url: '#',
         width: 800,
         height: 600,
       }
@@ -19,10 +20,17 @@ export const metadata = {
   },
 }
 
+const roboto = Roboto({
+  display: "swap",
+  weight: "400",
+  styles: ["italic", "normal"],
+  subsets: ["latin"],
+})
+
 export default function RootLayout({ children }) {
  return (
     <html lang="en">
-      <body>
+      <body className={roboto.className}>
         <Navbar></Navbar>
 
         {children}
