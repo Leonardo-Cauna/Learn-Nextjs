@@ -1,4 +1,4 @@
-export function  (){;
+export function Tienda (){;
 
 }
 export default function TiendaLayout({ children }){
