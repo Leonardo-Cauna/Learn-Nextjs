@@ -1,4 +1,4 @@
-import Users from "../Components/Users"
+import Users from "@/Components/Users"
 import LoadPages from "./Posts/page"
 
 export default function HomePage(){

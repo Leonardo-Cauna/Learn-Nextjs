@@ -1,6 +1,6 @@
 import Navbar from "../Components/Navbar"
 import { Roboto } from "next/font/google"
-
+import "./globals.css"
 export const metadata = {
   
   keywords: ["Tienda", "Electronica", "Computacion"],

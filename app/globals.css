@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body
+{
+    background-color: #202020;
+    box-sizing: border-box;
+    color: azure;
+}
+
+a{
+    color: aliceblue;
+}
