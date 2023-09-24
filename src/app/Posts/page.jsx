@@ -1,4 +1,4 @@
-import PostCard from "@/Components/PostCard";
+import PostCard from "@/src/Components/PostCard";
 import "./post.css"
 async function LoadPages () {
     const res = await fetch('https://jsonplaceholder.typicode.com/posts');
